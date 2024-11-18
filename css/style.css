@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+   font-weight: 500;
+   font-family: Arial, sans-serif;
+   color: #111111;
+}
+.container {
+    max-width: 1410px;
+    width: 100%;
+}
+.umino__header-singup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px 0;
+}
+.umino__contacts {
+    display: flex;
+    gap: 25px;
+}
+.umino__contacts a {
+color: #111111;
+text-decoration: none;
+}
+.umino__header-additional-list {
+    display: flex;
+}
+.umino__header-additional-list  {
+    display: flex;
+    gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+.umino__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #EBEBEB;
+    padding: 20px 0;
+}
+.umino__nav-list {
+    display: flex;
+    gap: 30px;
+}
+.umino__header-additional-item .arrow {
+    max-width: 12px;
+    max-height: 12px;
+    width: 100%;
+    height: 100%;  
+}
+.arr {
+    max-width: 14px;
+    max-height: 14px;
+    width: 100%;
+    height: 100%;
+}
+.umino__nav-list--social {
+    display: flex;
+     gap: 20px;
+}
+
+.umino__hero {
+    background-image: url("/img/bg/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    height: 100%;
+    max-width: 1860px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.umino__hero-content {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+}
+.umino__hero-subtitle {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+.umino__hero-title {
+    font-size: 90px;
+    font-weight: 600;
+   
+}
+.umino__hero-sale {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    letter-spacing: 0.9px;
+}
+.umino__hero-btn {
+    padding: 19px 53px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 13px;
+    font-weight: 600px;
+}
+
