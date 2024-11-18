@@ -4,40 +4,45 @@
     padding: 0;
     list-style: none;
 }
+
 body {
-   font-weight: 500;
-   font-family: Arial, sans-serif;
-   color: #111111;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    color: #111111;
 }
+
 .container {
     max-width: 1410px;
     width: 100%;
+    margin: 0 225px;
+
 }
+
 .umino__header-singup {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 11px 0;
 }
+
 .umino__contacts {
     display: flex;
     gap: 25px;
 }
+
 .umino__contacts a {
-color: #111111;
-text-decoration: none;
+    color: #111111;
+    text-decoration: none;
 }
+
 .umino__header-additional-list {
     display: flex;
 }
-.umino__header-additional-list  {
+
+.umino__header-additional-list {
     display: flex;
     gap: 25px;
 }
-
-
-
-
 
 
 
@@ -51,29 +56,35 @@ text-decoration: none;
     border: 2px solid #EBEBEB;
     padding: 20px 0;
 }
+
 .umino__nav-list {
     display: flex;
     gap: 30px;
 }
+
 .umino__header-additional-item .arrow {
     max-width: 12px;
     max-height: 12px;
     width: 100%;
-    height: 100%;  
+    height: 100%;
 }
+
 .arr {
     max-width: 14px;
     max-height: 14px;
     width: 100%;
     height: 100%;
 }
-.umino__nav-list--social {
+
+.umino__nav-list_social {
     display: flex;
-     gap: 20px;
+    gap: 20px;
 }
 
+
+
 .umino__hero {
-    background-image: url("/img/bg/bg.jpg");
+    background-image: url("/Learn-HTML/img/bg/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,6 +98,7 @@ text-decoration: none;
     position: relative;
     flex-direction: column;
 }
+
 .umino__hero-content {
     color: #FFFFFF;
     display: flex;
@@ -95,22 +107,26 @@ text-decoration: none;
     gap: 10px;
 
 }
+
 .umino__hero-subtitle {
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.8px;
 }
+
 .umino__hero-title {
     font-size: 90px;
     font-weight: 600;
-   
+
 }
+
 .umino__hero-sale {
     font-size: 16px;
     font-weight: 500px;
     line-height: 20px;
     letter-spacing: 0.9px;
 }
+
 .umino__hero-btn {
     padding: 19px 53px;
     border-radius: 30px;
@@ -119,3 +135,52 @@ text-decoration: none;
     font-weight: 600px;
 }
 
+
+.umino__categories {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.umino__categories-title {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.umino__categories-sub-title {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500px;
+}
+
+.umino__categories-list {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.umino__categories-text {
+    margin-bottom: 40px;
+}
+
+.umino__categories-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.umino__categories-link {
+    text-decoration: none;
+    color: #111111;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.umino__categories-img {
+    max-width: 160px;
+    max-height: 160px;
+    width: 100%;
+    height: 100%;
+}
