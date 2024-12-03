@@ -10,14 +10,14 @@ body {
     font-family: "Arial", sans-serif;
     color: #111111;
     margin: 0 auto;
-    max-width: 1410px;
+    max-width: 1860px;
 }
 
 .umino__container {
     max-width: 1410px;
     width: 100%;
     margin: 0 auto;
-    
+
 }
 
 /* -----header----- */
@@ -64,6 +64,7 @@ body {
     display: flex;
     gap: 30px;
 }
+
 .nav__item {
     display: flex;
     align-items: center;
@@ -76,6 +77,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 .nav__inner-img {
     max-width: 14px;
     max-height: 14px;
@@ -99,7 +101,7 @@ body {
 /* -----HERO----- */
 
 .umino__hero {
-    background-image: url("img/bg/bg.jpg");
+    background-image: url("/Learn-HTML/img/bg/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -148,6 +150,7 @@ body {
     margin-top: 50px;
     font-size: 13px;
     font-weight: 600px;
+    cursor: pointer;
 }
 
 
@@ -217,6 +220,7 @@ body {
     text-align: center;
     gap: 5px;
 }
+
 .umino__treding-title {
     font-size: 36px;
     line-height: 48px;
@@ -230,6 +234,7 @@ body {
     grid-row-gap: 40px;
     margin: 40px 0;
 }
+
 .umino__trending-items {
     max-width: 330px;
     max-height: 506px;
@@ -238,10 +243,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .umino__trending-link {
     text-decoration: none;
-    color:#111111
+    color: #111111
 }
+
 .umino__trending-img {
     max-width: 330px;
     max-height: 420px;
@@ -249,37 +256,46 @@ body {
     height: 100%;
     margin-bottom: 16px;
 }
+
 .umino__card-text {
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
     font-size: 14px;
     line-height: 20px;
 }
+
 .stars {
     margin-bottom: 10px;
-} 
+}
+
 .umino__price {
     display: flex;
     gap: 3px;
 }
+
 .umino__price-old {
     font-size: 18px;
     line-height: 24px;
     color: #111111;
 }
+
 .umino__sale-price {
-   text-decoration: line-through;
-   opacity: 0.5;
-   font-size: small;
-   color: #8D979E;
-   margin-top: 5px;
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: small;
+    color: #8D979E;
+    margin-top: 5px;
 }
+
 .umino__sales {
     color: #9C6D3A;
 }
+
 .umino__wrap-trading_btn {
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
 }
+
 .umino__trending-btn {
     font-size: 12px;
     font-weight: 600;
@@ -288,8 +304,9 @@ body {
     color: #111111;
     padding: 17px 65px;
     background: transparent;
-    border: 1px solid #DEDEDE; 
-    border-radius: 30px; 
+    border: 1px solid #DEDEDE;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 /* -----Advantages----- */
@@ -307,7 +324,13 @@ body {
     align-items: center;
     position: relative;
 }
-.umino__advantages-card{
+
+.umino__container-card {
+    display: flex;
+    justify-content: end;
+}
+
+.umino__advantages-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -317,12 +340,14 @@ body {
     border-radius: 20px;
     gap: 10px;
 }
+
 .umino__advantages-card_subtitle {
     font-size: 12px;
     line-height: 16px;
     font-weight: 500;
     color: #999999;
 }
+
 .umino__advantages-card_title {
     font-size: 40px;
     line-height: 54px;
@@ -330,6 +355,7 @@ body {
     text-align: center;
     color: #111111;
 }
+
 .umino__advantages-card_text {
     font-size: 14px;
     line-height: 24px;
@@ -339,6 +365,7 @@ body {
     color: #555555;
     margin: 10px 0 40px;
 }
+
 .umino__advantages-card_btn {
     font-size: 12px;
     font-weight: 600;
@@ -346,8 +373,9 @@ body {
     text-align: center;
     color: #FFFFFF;
     padding: 17px 52px;
-    background: #111111; 
+    background: #111111;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .umino__advantages-list {
@@ -355,9 +383,10 @@ body {
     flex-direction: row;
     text-align: center;
     align-items: center;
-    padding: 100px 0; 
+    padding: 100px 0;
     justify-content: space-between;
 }
+
 .umino__advantages-item {
     display: flex;
     flex-direction: column;
@@ -365,11 +394,13 @@ body {
     text-align: center;
     gap: 10px;
 }
+
 .umino__advantages-item_title {
     font-size: 16px;
     line-height: 21px;
     margin-bottom: 5px;
 }
+
 .umino__advantages-item_text {
     font-size: 14px;
     line-height: 19px;
@@ -380,5 +411,57 @@ body {
 }
 
 /* -----follow----- */
+.umino__follow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0;
+}
 
+.umino__follow-wrap_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 40px;
+}
 
+.umino__follow-title {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.umino__follow-text {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.umino__follow-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.umino__follow-item {
+    position: relative;
+    max-width: 215px;
+    max-height: 215px;
+    width: 100%;
+    height: 100%;
+}
+
+.umino__follow-img {
+    max-width: 219px;
+    max-height: 218px;
+    width: 100%;
+    height: 100%;
+}
+
+.umino__follow-img_basket {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/* -----FOOTER------ */
