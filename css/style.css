@@ -20,6 +20,7 @@ body {
 
 }
 
+
 /* -----header----- */
 
 .umino__header-singup {
@@ -47,7 +48,17 @@ body {
     display: flex;
     gap: 25px;
 }
-
+.umino__logo {
+    max-width: 90px;
+    max-height: 20px;
+    width: 100%;
+    height: 100%;
+}
+.umino__logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* -----Nav----- */
 
@@ -465,3 +476,67 @@ body {
     right: 10px;
 }
 /* -----FOOTER------ */
+.umino__footer {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+.umino__footer-info {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 100px 0 30px;
+}
+.umino__footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.umino__footer-contacts {
+display: flex;
+flex-direction: column;
+font-size: 14px;
+line-height: 19px;
+font-weight: 500;
+gap: 10px;
+color: #555555;
+
+}
+.umino__footer-contacts a {
+text-decoration: none;
+color: #555555;
+}
+.umino__address {
+    font-style: normal;
+}
+.umino__footer-list {
+    display: flex;
+    gap: 10px;
+}
+
+.umino__footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    min-width: 210px;
+    width: 100%;
+    justify-content: start;
+}
+.umino__footer-title {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17,5;
+}
+.umino__footer-nav_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+}
+.umino__footer-nav_link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #555555;
+}
