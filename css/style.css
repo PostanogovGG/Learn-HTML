@@ -486,6 +486,7 @@ body {
     flex-direction: row;
     gap: 30px;
     padding: 100px 0 30px;
+    justify-content: space-between;
 }
 .umino__footer-social {
     display: flex;
@@ -500,6 +501,8 @@ line-height: 19px;
 font-weight: 500;
 gap: 10px;
 color: #555555;
+min-width: 315px;
+width: 100%;
 
 }
 .umino__footer-contacts a {
@@ -519,7 +522,8 @@ color: #555555;
     flex-direction: column;
     gap: 33px;
     min-width: 210px;
-    width: 100%;
+    width: 210px;
+    /* width: 100%; */
     justify-content: start;
 }
 .umino__footer-title {
@@ -540,3 +544,62 @@ color: #555555;
     font-weight: 500;
     color: #555555;
 }
+.umino__footer-subscribe {
+    max-width: 450px;
+    width: 100%;
+}
+.umino__footer-nav_text {
+    max-width: 450px;
+    width: 100%;
+    line-height: 19px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555555;
+}
+.umino__footer-input {
+    padding: 16px 110px 16px 20px;
+    border: none;
+    border-radius: 30px;
+}
+.umino__footer-subscribe_btn {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 17px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #111111;  
+}
+.umino__footer-more {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #555555;
+    padding: 28.5px 0;
+    border-top: 1px solid #DEDEDE;
+}
+.umino__footer-more_wrap {
+    display: flex;
+    gap: 20px;
+}
+.umino__footer-more_list {
+    display: flex;
+    gap: 5px;
+}
+.umino__footer-more_item {
+    max-width: 43px;
+    max-height: 26px;
+    width: 100%;
+    height: 100%;
+}
+.umino__footer-more_item img {
+    width: 43px;
+    height: 26px;
+}
+/* .umino__footer-social:first-child {
+    color: red;
+} */
