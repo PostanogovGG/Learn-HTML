@@ -10,14 +10,16 @@ body {
     font-family: "Arial", sans-serif;
     color: #111111;
     margin: 0 auto;
-    max-width: 1860px;
+    max-width: 1920px;
 }
+/* .umino {
+
+} */
 
 .umino__container {
     max-width: 1410px;
     width: 100%;
-    margin: 0 auto;
-
+    padding: 0 225px;
 }
 
 
@@ -27,7 +29,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 11px 0;
+    padding: 11px 30px;
     font-size: 13px;
     font-weight: 500;
     line-height: 17.5px;
@@ -42,6 +44,13 @@ body {
 .umino__contacts a {
     color: #111111;
     text-decoration: none;
+}
+.umino__singup-text {
+    color: #555555;
+}
+.umino__singup-link {
+    font-weight: 600;
+    color: #111111;
 }
 
 .umino__header-additional-list {
@@ -73,7 +82,7 @@ body {
     align-items: center;
     border-top: 2px solid #EBEBEB;
     border-bottom: 2px solid #EBEBEB;
-    padding: 20px 0;
+    padding: 20px 30px;
     margin-bottom: 30px;
 }
 
@@ -86,13 +95,24 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
+    font-weight: 600;
 }
-
-.umino__header-additional-item .arrow {
+.umino__header-wrap_arrow {
     max-width: 12px;
     max-height: 12px;
     width: 100%;
     height: 100%;
+}
+.umino__header-additional-item  {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+.umino__header-additional-item .arrow {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .nav__inner-img {
@@ -113,12 +133,15 @@ body {
     display: flex;
     gap: 20px;
 }
+.nav__item-social {
+ cursor: pointer;
+}
 
 
 /* -----HERO----- */
 
 .umino__hero {
-    background-image: url("/Learn-HTML/img/bg/bg.jpg");
+    background-image: url("../img/bg/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -131,6 +154,7 @@ body {
     align-items: center;
     position: relative;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .umino__hero-content {
@@ -145,18 +169,20 @@ body {
 .umino__hero-subtitle {
     font-size: 13px;
     font-weight: 600;
-    letter-spacing: 0.8px;
+    letter-spacing: 2px;
+    line-height: 17.5px;
 }
 
 .umino__hero-title {
     font-size: 90px;
     font-weight: 600;
+    line-height: 121px;
 
 }
 
 .umino__hero-sale {
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.9px;
 }
@@ -166,7 +192,7 @@ body {
     border-radius: 30px;
     margin-top: 50px;
     font-size: 13px;
-    font-weight: 600px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -190,7 +216,7 @@ body {
 .umino__categories-subtitle {
     font-size: 14px;
     line-height: 19px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #555555;
 }
 
@@ -216,6 +242,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-weight: 500;
+    line-height: 21.6px;
 }
 
 .umino__categories-img {
@@ -243,11 +271,12 @@ body {
     font-size: 36px;
     line-height: 48px;
     align-items: center;
+    font-weight: 500;
 }
 .umino__treding-subtitle {
     font-size: 14px;
     line-height: 19px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #555555;
 }
 
@@ -335,7 +364,7 @@ body {
 
 /* -----Advantages----- */
 .umino__advantages-bg {
-    background-image: url("/Learn-HTML/img/advantages/advantages-bg.jpg");
+    background-image: url("../img/advantages/advantages-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -347,6 +376,7 @@ body {
     justify-content: end;
     align-items: center;
     position: relative;
+    margin: 0 auto;
 }
 
 .umino__container-card {
@@ -482,12 +512,14 @@ body {
     max-height: 218px;
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .umino__follow-img_basket {
     position: absolute;
     top: 10px;
     right: 10px;
+    cursor: pointer;
 }
 /* -----FOOTER------ */
 .umino__footer {
