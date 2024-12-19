@@ -29,6 +29,7 @@ body {
 
 
 /* -----header----- */
+
 .umino__header {
     width: 100%;
 }
@@ -213,11 +214,10 @@ body {
     font-weight: 600;
     cursor: pointer;
     border: none;
-
 }
 
-
 /* -----Categories----- */
+
 .umino__main-content {
     display: flex;
     flex-direction: column;
@@ -305,13 +305,12 @@ body {
 }
 
 /* -----Trending----- */
+
 .umino__treding {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-
-
 
 .umino__treding-title {
     font-size: 36px;
@@ -562,7 +561,6 @@ body {
 
 /* -----follow----- */
 
-
 .umino__follow-wrap_text {
     display: flex;
     flex-direction: column;
@@ -631,6 +629,7 @@ body {
 }
 
 /* -----FOOTER------ */
+
 .umino__footer {
     display: flex;
     flex-direction: column;
@@ -806,8 +805,6 @@ body {
     height: 100%;
 }
 
-/* .umino__footer-arrow img {} */
-
 .umino__footer-more_list {
     display: flex;
     gap: 5px;
@@ -831,7 +828,3 @@ body {
     width: 100%;
     height: 100%;
 }
-
-/* .umino__footer-social:first-child {
-    color: red;
-} */
